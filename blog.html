@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- FAVICON -->
+<link rel="shortcut icon" href="" type="image/x-icon">
+
+<!-- REMIXICONS -->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- CSS -->
+<link rel="stylesheet" href="blog.css">
+
+<!-- Font Awesome Link -->
+<script src="https://kit.fontawesome.com/1c6364f841.js" crossorigin="anonymous"></script>
+
+<title></title>
+
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header" id="header">
+<div class="header__border"></div>
+
+<nav class="nav container">
+    <a href="#" class="nav__logo">
+        <img src="Assets/img/logo-semuaada.png" alt="logo">
+        SemuaAda
+    </a>
+
+    <div class="nav__menu">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="index.html" class="nav__link">
+<i class="ri-award-fill"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+            
+
+            <li class="nav__item">
+                <a href="service.html" class="nav__link">
+<i class="ri-award-fill"></i>
+                    <span>Service</span>
+                </a>
+            </li>
+
+            <li class="nav__item">
+                <a href="blog.html" class="nav__link active-link">
+<i class="ri-compass-3-fill"></i>
+                    <span>Blog</span>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+</header>
+
+<!-- MAIN -->
+<main class="main">
+
+ <!-- HOME -->
+ <section class="home section" id="home">
+    <div class="home__container container grid">
+        <div class="home__data">
+            <h3 class="home__subtitle">
+                Kualitas Nasional
+            </h3>
+
+            <h1 class="home__title">
+                Selamat Datang di <br>
+                Halaman Blog
+            </h1>
+
+            <p class="home__description">
+                "Kami menyediakan kepada anda berbagai pilihan blog untuk membantu anda memperoleh informasi yang beragam dan terupdate.
+            </p>
+
+            <a href="#testimonial" class="button">
+                Yuk Cari Tahu! <i class="ri-arrow-right-s-line"></i>
+            </a>
+        </div>
+
+        <img src="assets/img/bl-2.png" alt="home image" class="home__img">
+    </div>
+ </section>
+
+ <!-- TESTIMONIAL -->
+ <!-- Motivation Page -->
+ <section id="motivation" class="motivation-page">
+    <a href="index.html"><i class="fa-solid fa-left-long"></i></a>
+    <h2>Kumpulan blog yang bisa membuatmu semakin <span class="active-bg">semangat untuk membantu UMKM</span></h2>
+    <div class="motivation-box">
+        <h2>SemuaAda</h2>
+        <p class="motivation-list">Klik tombol dibawah untuk melihat blog</p>
+        <div class="btn">
+            <button id="button">Temukan</button>
+        </div>
+        <div class="copy">
+            <i class="fa-solid fa-copy copy-text"></i>
+            <i class="fa-solid fa-check copied removed"></i>
+        </div>
+    </div>
+</section>
+
+<!-- Jquery CDNJS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="script.js"></script>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+            <div class="footer__bg">
+                <img src="assets/img/coffee-beans-bg.png" alt="footer image" class="footer__bg-img">
+
+                <div class="footer__container container grid">
+                    <div class="footer__data grid">
+                        <div>
+                            <a href="#" class="footer__logo">
+                                <img src="assets/img/logo-semuaada.png" alt="logo">
+                                SemuaAda
+                            </a>
+
+                            <h3 class="footer__title">
+                                Be part of SemuaAda
+                            </h3>
+                        </div>
+
+                        <form action="" class="footer__form grid">
+                            <input type="email" placeholder="Enter e-mail address" class="footer__input">
+                        
+                            <button class="button footer__button" type="submit">
+                                Subcribe <i class="ri-arrow-right-s-line"></i>
+                            </button>
+
+                            <p class="footer__description">
+                                We care about your data. Read our
+                                <a href="#" class="footer__privacy">Privacy Policy</a>
+                            </p>
+                        </form>
+                    </div>
+
+                    <div class="footer__content grid">
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+
+                            <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                        
+                        <span class="footer__copy">
+                            &#169; Copyright SemuaAda. All rights reserved
+                        </span>
+                    </div>
+                </div>
+            </div>
+  </footer>
+
+  <!-- SCROLL UP -->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+
+  <!-- SCROLLREVEAL -->
+  <script src="scrollreveal.min.js"></script>
+
+  <!-- MAIN JS -->
+  <script src="main.js"></script>
+</body>
+</html>
